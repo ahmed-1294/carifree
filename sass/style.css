@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body h1 {
+  color: #293c51;
+}
+
+.header {
+  background-color: #293c51;
+  padding: 40px 0;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header .navbar .menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  gap: 20px;
+}
+.header .navbar .menu ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: white;
+  cursor: pointer;
+}
+.header .navbar .navbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header .navbar .navbtn a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: opensans;
+}
+.header .navbar .navbtn a:hover {
+  color: #a8bfef;
+}
+.header .navbar .navbtn i {
+  color: white;
+}
+
+#hero {
+  background-color: #455971;
+  padding: 120px 30px;
+}
+#hero .hero .herobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#hero .hero .herobox .herotext {
+  width: 50%;
+}
+#hero .hero .herobox .herotext h1 {
+  color: white;
+  margin: 20px 0;
+  font-size: 56px;
+  font-family: Montserrat;
+}
+#hero .hero .herobox .herotext p {
+  color: white;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+#hero .hero .herobox .herotext button {
+  margin: 20px 16px 0 0;
+  border: none;
+  border: 4px solid #a8bfef;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: #455971;
+  color: #a8bfef;
+  font-weight: 700;
+  font-size: 14px;
+}
+#hero .hero .herobox .herotext button:hover {
+  background-color: #a8bfef;
+  color: #293c51;
+}
+#hero .hero .herobox .heropic {
+  width: 50%;
+}
+#hero .hero .herobox .heropic img {
+  height: 100%;
+  width: 100%;
+}
+
+#company .company .companyupper {
+  padding: 100px 0;
+}
+#company .company .companyupper p {
+  font-size: 14px;
+  font-family: Montserrat;
+  color: #384f68;
+}
+#company .company .companylogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+#company .company .companylogo img {
+  height: 100%;
+  width: 100%;
+}
+#company .company .companytext {
+  text-align: center;
+  padding-bottom: 100px;
+}
+#company .company .companytext h1 {
+  font-size: 56px;
+}
+#company .company .companytext p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333333;
+}
+#company .company .companybox {
+  padding: 0px 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#company .company .companybox .box {
+  text-align: center;
+  width: 20%;
+}
+#company .company .companybox .box i {
+  font-size: 60px;
+}
+#company .company .companybox .box h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #384f68;
+  margin: 20px 0;
+}
+#company .company .companybox .box p {
+  font-family: opensans;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+#routine {
+  background-color: #293c51;
+  padding: 100px 0;
+}
+#routine .routinetext {
+  text-align: center;
+  padding-bottom: 60px;
+}
+#routine .routinetext h1 {
+  font-size: 56px;
+  color: white;
+}
+#routine .routinetext p {
+  font-family: Montserrat;
+  color: white;
+  font-size: 18px;
+}
+#routine .routinebox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#routine .routinebox .rinse {
+  width: 65%;
+}
+#routine .routinebox .rinse h1 {
+  color: #a8bfef;
+  font-family: Montserrat;
+  font-size: 26px;
+}
+#routine .routinebox .rinse img {
+  width: 100%;
+  border-radius: 20px;
+}
+#routine .routinebox .rinse .rinsebox {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#routine .routinebox .rinse .rinsebox .rinseinnerbox .innertext {
+  background: #fff;
+  padding: 60px 20px 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: -30px;
+}
+#routine .routinebox .rinse .rinsebox .rinseinnerbox .innertext h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #384f68;
+}
+#routine .routinebox .rinse .rinsebox .rinseinnerbox .innertext p {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+#routine .routinebox .rinse .rinsebox .rinseinnerbox .innertext h6 {
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+#routine .routinebox .brush {
+  width: 32%;
+}
+#routine .routinebox .brush h1 {
+  color: #a8bfef;
+  font-family: Montserrat;
+  font-size: 26px;
+}
+#routine .routinebox .brush img {
+  border-radius: 20px;
+  width: 100%;
+}
+#routine .routinebox .brush .brushbox {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#routine .routinebox .brush .brushbox .brushinnerbox .innertext {
+  background: #fff;
+  padding: 60px 20px 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: -30px;
+}
+#routine .routinebox .brush .brushbox .brushinnerbox .innertext h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #384f68;
+}
+#routine .routinebox .brush .brushbox .brushinnerbox .innertext p {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+#routine .routinebox .brush .brushbox .brushinnerbox .innertext h6 {
+  margin-top: 40px;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+#blog {
+  padding: 100px 0;
+}
+#blog .blog .blogbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  gap: 40px;
+}
+#blog .blog .blogbox .blogpic {
+  width: 40%;
+}
+#blog .blog .blogbox .blogpic img {
+  width: 100%;
+  border-radius: 10px;
+}
+#blog .blog .blogbox .blogtext {
+  width: 60%;
+}
+#blog .blog .blogbox .blogtext h1 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #384f68;
+}
+#blog .blog .blogbox .blogtext p {
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 20px;
+}
+#blog .blog .blogbox .blogtext button {
+  margin-top: 20px;
+  border: none;
+  background: transparent;
+}
+
+#why .why {
+  text-align: center;
+  padding: 100px 0;
+}
+#why .why h1 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #384f68;
+}
+#why .why p {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #384f68;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#why .whybox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+#why .whybox .dentiest {
+  text-align: center;
+}
+#why .whybox .dentiest i {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+#why .whybox .dentiest h3 {
+  font-size: 26px;
+  color: #384f68;
+  font-family: Montserrat;
+  margin-bottom: 10px;
+}
+#why .whybox .dentiest p {
+  font-size: 16px;
+  color: #384f68;
+  font-family: Montserrat;
+  margin-bottom: 10px;
+}
+
+#testimonial {
+  padding: 100px 0;
+  background-color: #a8bfef;
+}
+#testimonial .testimonial .testhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0 30px 20px;
+}
+#testimonial .testimonial .testhead h1 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #384f68;
+}
+#testimonial .testimonial .comment {
+  padding: 60px 120px;
+  background-color: #fff;
+  border-radius: 12rem;
+  border-top-right-radius: 72px;
+  border-bottom-left-radius: 72px;
+}
+#testimonial .testimonial .comment h2 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #333333;
+}
+#testimonial .testimonial .comment p {
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #384f68;
+}
+
+#shop {
+  background-color: #293c51;
+}
+#shop .shopbox {
+  padding: 80px 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#shop .shopbox .leftshop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  padding: 60px 80px;
+  border: 3px solid #384f68;
+  border-radius: 12rem;
+  border-top-right-radius: 72px;
+  border-bottom-left-radius: 72px;
+}
+#shop .shopbox .leftshop i {
+  font-size: 60px;
+  color: #fff;
+}
+#shop .shopbox .leftshop h1 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #fff;
+}
+#shop .shopbox .leftshop p {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+#shop .shopbox .leftshop button {
+  margin: 20px 16px 0 0;
+  border: none;
+  border: 4px solid #a8bfef;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: #455971;
+  color: #a8bfef;
+  font-weight: 700;
+  font-size: 14px;
+}
+#shop .shopbox .leftshop button:hover {
+  background-color: #a8bfef;
+  color: #293c51;
+}
+#shop .shopbox .rightshop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  border: 3px solid #384f68;
+  padding: 40px 60px 60px;
+  text-align: center;
+  border-radius: 12rem;
+  border-top-left-radius: 72px;
+  border-bottom-right-radius: 72px;
+}
+#shop .shopbox .rightshop button {
+  margin: 20px 16px 0 0;
+  border: none;
+  border: 4px solid #a8bfef;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: #455971;
+  color: #a8bfef;
+  font-weight: 700;
+  font-size: 14px;
+}
+#shop .shopbox .rightshop button:hover {
+  background-color: #a8bfef;
+  color: #293c51;
+}
+#shop .shopbox .rightshop i {
+  font-size: 60px;
+  color: #fff;
+}
+#shop .shopbox .rightshop h1 {
+  font-family: Montserrat;
+  font-size: 26px;
+  color: #fff;
+}
+#shop .shopbox .rightshop p {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #fff;
+}
+
+#footer {
+  background-color: #293c51;
+  padding: 80px 30px 60px;
+}
+#footer .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#footer .footer .footbox p {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #a8bfef;
+}
+#footer .footer .footbox ul {
+  list-style: none;
+  margin-top: 20px;
+}
+#footer .footer .footbox ul li {
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: white;
+}
+#footer .footer .footbox .socialicon {
+  padding-top: 30px;
+}
+#footer .footer .footbox .socialicon i {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 10px;
+}
+#footer .footerbottom {
+  padding: 60px 30px 40px;
+  text-align: center;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
