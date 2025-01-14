@@ -29,6 +29,11 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+
+    @media (max-width:400px) {
+
+        flex-direction: column;
+    }
 }
 
 @mixin bd-radius(){
@@ -115,6 +120,13 @@ body{
     
             .herotext{
                 width: 50%;
+
+                @media (max-width:400px) {
+
+                    width: 100%;
+                    
+                    
+                }
                 
     
                 h1{
@@ -122,6 +134,10 @@ body{
                     margin: 20px 0;
                     font-size: $headfontsize;
                     font-family: $primaryfont;
+
+                    @media (max-width:400px) {
+                        font-size: 32px;
+                    }
 
                 }
                 p{
@@ -149,10 +165,18 @@ body{
     
             .heropic{
                 width:50%;
+
+                @media (max-width:400px) {
+
+                    width: 100%;
+                    
+                }
     
                 img{
                     height: 100%;
                     width: 100%;
+                    border-top-left-radius: 12rem;
+                    border-bottom-left-radius: 72px;
                 }
             }
         }
@@ -183,6 +207,15 @@ body{
                 height: 100%;
                 width: 100%;
             }
+
+            @media (max-width:400px) {
+
+                img{
+                    width: 50%;
+                }
+                gap: 30px;
+
+            }
         }
 
         .companytext{
@@ -190,12 +223,22 @@ body{
             padding-bottom: 100px;
             h1{
                 font-size: $headfontsize;
+                color:$headfontcolor;
+
+            
             }
             p{
                 font-size: $titlefontsize;
                 margin-top: 20px;
                 color: $paragraphcolor;
             }
+
+            span{
+
+                text-decoration: underline;
+                
+            }
+
         }
 
         .companybox{
@@ -205,6 +248,12 @@ body{
             .box{
                 text-align: center;
                 width: 20%;
+
+                @media (max-width:400px) {
+
+                    width: 100%;
+                    
+                }
 
                 i{
                     font-size: 60px;
@@ -262,6 +311,12 @@ body{
         .rinse{
             width: 65%;
 
+            @media (max-width:400px) {
+
+                width: 100%;
+                
+            }
+
             h1{
                 color: $nav-active-text;
                 font-family: $primaryfont;
@@ -313,6 +368,12 @@ body{
 
         .brush{
             width: 32%;
+
+            @media (max-width:400px) {
+
+                width: 100%;
+                
+            }
 
             h1{
                 color: $nav-active-text;
@@ -368,7 +429,7 @@ body{
 
 
 #blog{
-    padding: 100px 0;
+    padding: 100px 0 0;
 
     .blog{
 
@@ -379,6 +440,12 @@ body{
             .blogpic{
                 width: 40%;
 
+                @media (max-width:400px) {
+
+                    width: 100%;
+                    
+                }
+
                 img{
                     width: 100%;
                     border-radius: 10px;
@@ -386,6 +453,11 @@ body{
             }
             .blogtext{
                 width: 60%;
+                @media (max-width:400px) {
+
+                    width: 100%;
+                    
+                }
 
                 h1{
                     font-family: $primaryfont;
@@ -473,6 +545,14 @@ body{
             @include display();
             padding: 0 30px 20px;
 
+            .icon{
+                i{
+                    border: 2px solid $priamary-color-dark;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+            }
+
             h1{
                 font-family: $primaryfont;
                 font-size: $largetittlesize;
@@ -487,10 +567,22 @@ body{
             border-top-right-radius: 72px;
             border-bottom-left-radius: 72px;
 
+            @media (max-width:400px) {
+
+                padding: 40px 80px;
+
+                
+                
+            }
+
             h2{
                 font-family: $primaryfont;
                 font-size: $largetittlesize;
                 color: $paragraphcolor;
+
+                @media (max-width:400px) {
+                    font-size: 16px;
+                }
             }
             p{
                 margin-top: 40px;
@@ -512,6 +604,12 @@ body{
 
 
         .leftshop{
+
+            @media (max-width:400px) {
+
+                width: 100%;
+                
+            }
 
             @include display();
             flex-direction: column;
@@ -557,6 +655,12 @@ body{
         }
 
         .rightshop{
+
+            @media (max-width:400px) {
+
+                width: 100%;
+                
+            }
 
             @include display();
             flex-direction: column;
@@ -607,6 +711,7 @@ body{
 
     background-color: $priamary-color-dark;
     padding: 80px 30px 60px;
+    
     
     .footer{
         @include display();
