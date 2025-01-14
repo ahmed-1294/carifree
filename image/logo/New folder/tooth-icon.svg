@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60" fill="none">
+  <g id="Group">
+    <path id="Vector" d="M25.7259 37.9837C30.4545 37.9837 32.2571 43.7443 32.2571 55.5137C32.2571 59.2104 36.5416 59.2365 37.7956 57.2902C38.9713 55.4614 43.1774 50.8634 44.0134 35.4627C56.3706 19.6439 48.6115 1.5 34.8696 1.5C31.2644 1.5 28.2731 1.65675 25.7259 2.80626C23.1787 1.65675 20.1873 1.5 16.5821 1.5C2.84025 1.5 -4.91891 19.6439 7.43827 35.4627C8.27427 50.8634 12.4804 55.4745 13.656 57.2902C14.91 59.2496 19.1946 59.2235 19.1946 55.5137C19.1946 43.7443 20.9972 37.9837 25.7259 37.9837Z" stroke="white" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_2" d="M25.7258 2.79321C28.691 4.04722 29.0698 5.65391 32.2571 6.71198" stroke="white" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_3" d="M6.13184 17.1621C6.13184 10.67 11.396 5.40576 17.8881 5.40576" stroke="white" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_4" d="M35.5231 21.0808C38.0481 21.0808 40.095 19.0339 40.095 16.5089C40.095 13.9839 38.0481 11.937 35.5231 11.937C32.9981 11.937 30.9512 13.9839 30.9512 16.5089C30.9512 19.0339 32.9981 21.0808 35.5231 21.0808Z" stroke="#A8BFEF" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_5" d="M23.7665 28.9182C26.2915 28.9182 28.3384 26.8713 28.3384 24.3463C28.3384 21.8213 26.2915 19.7744 23.7665 19.7744C21.2415 19.7744 19.1946 21.8213 19.1946 24.3463C19.1946 26.8713 21.2415 28.9182 23.7665 28.9182Z" stroke="#A8BFEF" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_6" d="M24.4192 14.5496H27.0317" stroke="#A8BFEF" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_7" d="M37.4822 8.01831H40.0947" stroke="#A8BFEF" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_8" d="M32.2568 26.3059H34.8694" stroke="#A8BFEF" stroke-width="2" stroke-linejoin="round"></path>
+    <path id="Vector_9" d="M42.7068 18.4683H45.3193" stroke="#333333" stroke-width="2" stroke-linejoin="round"></path>
+  </g>
+</svg>
